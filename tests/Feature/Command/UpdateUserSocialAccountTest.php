@@ -26,11 +26,11 @@ describe(UpdateUserSocialAccount::class, function (): void {
         $this->second_user->refresh();
 
         expect($this->user->twitter_profile)
-            ->toBe('LaravelCm')
+            ->toBe('Laravelcd')
             ->and($this->user->github_profile)
-            ->toBe('laravelc')
+            ->toBe('laravelcd')
             ->and($this->user->linkedin_profile)
-            ->toBe('laravel-cm/');
+            ->toBe('laravel-cd/');
 
         expect($this->second_user->twitter_profile)
             ->toBe('shopperLabs');
