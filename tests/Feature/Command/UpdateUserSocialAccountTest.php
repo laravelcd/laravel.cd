@@ -8,7 +8,7 @@ use App\Models\User;
 beforeEach(function (): void {
     $this->user = $this->login([
         'email' => 'joe@laravel.cm',
-        'twitter_profile' => 'https://x.com/LaravelCm',
+        'twitter_profile' => 'https://x.com/laravelcd',
         'github_profile' => 'https://github.com/laravelcd',
         'linkedin_profile' => 'https://www.linkedin.com/in/laravel-cd/',
     ]);
@@ -26,7 +26,7 @@ describe(UpdateUserSocialAccount::class, function (): void {
         $this->second_user->refresh();
 
         expect($this->user->twitter_profile)
-            ->toBe('Laravelcd')
+            ->toBe('laravelcd')
             ->and($this->user->github_profile)
             ->toBe('laravelcd')
             ->and($this->user->linkedin_profile)
