@@ -7,7 +7,7 @@
         {{ $title }}
     </p>
     <div class="mt-5 flex flex-wrap items-center justify-center gap-8">
-        <div class="flex items-center justify-center px-2">
+        {{-- <div class="flex items-center justify-center px-2">
             <a href="https://laravelshopper.dev" target="_blank" class="flex items-center">
                 <img
                     class="h-12 dark:hidden"
@@ -36,7 +36,7 @@
                 <x-icon.sharuco class="h-7 w-auto text-gray-900 dark:text-white" aria-hidden="true" />
                 <span class="ml-1 text-2xl font-bold text-gray-900 dark:text-white">Sharuco</span>
             </a>
-        </div>
+        </div> --}}
     </div>
     <div class="mt-6 text-center lg:mt-10">
         <x-link

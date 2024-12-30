@@ -47,7 +47,7 @@ describe(Profile::class, function (): void {
     it('can send notification when user email change', function (): void {
         Event::fake([EmailAddressWasChanged::class]);
 
-        $data = ['email' => 'newemail@laravelcm.cm'];
+        $data = ['email' => 'newemail@laravel.cd'];
 
         app(UpdateUserProfileAction::class)
             ->execute($data, $this->user, (string) $this->user->email);
@@ -57,7 +57,7 @@ describe(Profile::class, function (): void {
         $this->user->refresh();
 
         expect($this->user->email)
-            ->toBe('newemail@laravelcm.cm')
+            ->toBe('newemail@laravel.cd')
             ->and($this->user->email_verified_at)
             ->toBeNull();
     });

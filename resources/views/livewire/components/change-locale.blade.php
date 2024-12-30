@@ -3,19 +3,11 @@
     class="group inline-flex text-sm px-3 py-1.5 rounded-md bg-white/10 items-center gap-2 text-gray-300 hover:text-white"
     wire:click="changeLocale"
 >
-    <svg id="flag-icons-cm" viewBox="0 0 640 480" class="size-5 rounded">
-        <path fill="#007a5e" d="M0 0h213.3v480H0z"/>
-        <path fill="#ce1126" d="M213.3 0h213.4v480H213.3z"/>
-        <path fill="#fcd116" d="M426.7 0H640v480H426.7z"/>
-        <g fill="#fcd116" transform="translate(320 240)scale(7.1111)">
-            <g id="cm-b">
-                <path id="cm-a" d="M0-8-2.5-.4 1.3.9z"/>
-                <use xlink:href="#cm-a" width="100%" height="100%" transform="scale(-1 1)"/>
-            </g>
-            <use xlink:href="#cm-b" width="100%" height="100%" transform="rotate(72)"/>
-            <use xlink:href="#cm-b" width="100%" height="100%" transform="rotate(144)"/>
-            <use xlink:href="#cm-b" width="100%" height="100%" transform="rotate(-144)"/>
-            <use xlink:href="#cm-b" width="100%" height="100%" transform="rotate(-72)"/>
+    <svg viewBox="0 0 301 225" >
+        <g fill="none">
+          <path d="m.5 0h300v225h-300z" fill="#007fff"/>
+          <path d="m14 45h31.5l9.75-31.5 9.75 31.5h31.5l-25.5 19.5 9.75 31.5-25.5-19.5-25.5 19.5 9.75-31.5zm267.75-45-281.25 168.75v56.25h18.75l281.25-168.75v-56.25z" fill="#f7d618"/>
+          <path d="m300.5 0-300 180v45l300-180z" fill="#ce1021"/>
         </g>
     </svg>
     <span>{{ $this->locale }}</span>
