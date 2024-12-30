@@ -1,12 +1,13 @@
-<svg {{ $attributes }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 209">
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 209" width="200" height="209">
+	<title>logo (1)</title>
 	<style>
-		tspan { white-space:pre }
-		.s0 { fill: #f2bc1b }
-		.s1 { fill: #d91438 }
-		.s2 { fill: #0583f2 }
-		.t3 { font-size: 11px;fill: #000000;font-weight: 700;font-family: "Muli-Bold", "Muli" }
-		.s4 { display: none;fill: #000000 }
-		.s5 { fill: #000000 }
+		tspan { white-space:pre } 
+		.s0 { fill: #f2bc1b } 
+		.s1 { fill: #d91438 } 
+		.s2 { fill: #0583f2 } 
+		.t3 { font-size: 11px;fill: #000000;font-weight: 700;font-family: "Muli-Bold", "Muli" } 
+		.s4 { display: none;fill: #000000 } 
+		.s5 { fill: #000000 } 
 	</style>
 	<path class="s0" d="m1 21l38 22 38-22-38-21z"/>
 	<path class="s1" d="m124 45l37 21 38-21-38-22z"/>

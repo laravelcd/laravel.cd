@@ -1,4 +1,6 @@
-<svg {{ $attributes }}  viewBox="0 0 585 209" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="585px" height="209px" viewBox="0 0 585 209" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group" fill-rule="nonzero">
             <polygon id="Path" fill="#FFFFFF" points="239.277344 104 239.277344 32.90625 251.679688 32.90625 251.679688 93.3554688 284.589844 93.3554688 284.589844 104"></polygon>
