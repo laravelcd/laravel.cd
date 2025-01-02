@@ -186,7 +186,7 @@ final class User extends Authenticatable implements FilamentUser, HasAvatar, Has
 
     public function canAccessPanel(\Filament\Panel $panel): bool
     {
-        return str_ends_with($this->email, '@laravel.cm') || $this->isModerator() || $this->isAdmin();
+        return str_ends_with($this->email, '@laravel.cd') || $this->isModerator() || $this->isAdmin();
     }
 
     public function getFilamentName(): string
