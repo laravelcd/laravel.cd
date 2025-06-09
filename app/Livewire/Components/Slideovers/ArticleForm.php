@@ -128,20 +128,15 @@ final class ArticleForm extends SlideOverComponent implements HasForms
                         Forms\Components\MarkdownEditor::make('body')
                             ->toolbarButtons([
                                 'attachFiles',
-                                'blockquote',
-                                'bold',
-                                'bulletList',
-                                'codeBlock',
-                                'italic',
-                                'link',
-                                'orderedList',
-                                'strike',
-                                'table',
+                        'blockquote',
+                        'bold',
+                        'bulletList',
+                        'codeBlock',
+                        'link',
                             ])
                             ->label(__('validation.attributes.content'))
                             ->fileAttachmentsDisk('public')
                             ->minLength(10)
-                            ->maxHeight('20.25rem')
                             ->required(),
                         Forms\Components\Placeholder::make('')
                             ->content(fn () => new HtmlString(Blade::render(<<<'Blade'
