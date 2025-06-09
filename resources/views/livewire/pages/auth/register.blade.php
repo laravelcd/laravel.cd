@@ -14,7 +14,6 @@ new class extends Component {
     public string $password = '';
     public string $gRecaptchaResponse;
 
-    #[ValidatesRecaptcha]
     public function register(): void
     {
         $validated = $this->validate([
@@ -120,7 +119,7 @@ new class extends Component {
 
                     <x-validation-errors />
 
-                    <form wire:submit="register" wire:recaptcha class="space-y-6 mt-4">
+                    <form wire:submit="register"  class="space-y-6 mt-4">
                         <div class="space-y-3">
                             <x-filament::input.wrapper>
                                 <x-filament::input
@@ -171,16 +170,16 @@ new class extends Component {
                         </div>
 
                         <div>
-                            <x-buttons.primary type="submit" class="group w-full relative">
+                            <x-buttons.submit  wire:loading.attr="data-loading"  type="submit" class="group w-full relative">
                                 <span class="absolute inset-y-0 left-0 flex items-center pl-3">
                                     <x-untitledui-lock class="size-5 text-green-500 group-hover:text-green-600"
                                                        aria-hidden="true" />
                                 </span>
                                 {{ __('pages/auth.register.submit') }}
-                            </x-buttons.primary>
+                            </x-buttons.submit>
                         </div>
                     </form>
-                    @livewireRecaptcha
+                    {{-- @livewireRecaptcha --}}
                 </div>
 
                 @include('partials._socials-link')

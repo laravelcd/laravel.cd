@@ -3,7 +3,6 @@
 declare(strict_types=1);
 
 return [
-
     'site_name' => 'Laravel DRC',
     'site_description' => 'Welcome to the DRC PHP and Laravel developer community, the largest gathering of developers in DRC.',
     'by' => 'by',
@@ -107,5 +106,5 @@ return [
     'language' => 'Language',
     'french' => 'French',
     'english' => 'English',
-
+    'processing' => 'Processing...',
 ];
