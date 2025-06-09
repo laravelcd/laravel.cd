@@ -57,13 +57,17 @@
                 <div class="border-t border-gray-200 dark:border-white/10 pt-12">
                     <h4 class="font-heading text-lg font-medium text-gray-900 dark:text-white lg:text-xl">Sponsors</h4>
                     <div class="mt-4 flex flex-wrap items-center gap-6">
-                        <a href="https://laravelshopper.dev" target="_blank" class="flex items-center">
+                        <a href="https://letecode.com" target="_blank" class="flex items-center">
                             <img
-                                class="h-10 "
-                                src="{{ asset('/images/sponsors/letecode.png') }}"
-                                alt="Laravel Shopper"
+                                class="h-10 dark:hidden"
+                                src="{{ asset('/images/sponsors/letecode-logo.png') }}"
+                                alt="Letecode Academy"
                             />
-                            
+                            <img
+                                class="hidden h-10 dark:block"
+                                src="{{ asset('/images/sponsors/letecode-logo-light.png') }}"
+                                alt="Letecode Academy"
+                            />
                         </a>
                         
                     </div>
