@@ -9,7 +9,7 @@ return [
     'support_as' => 'Soutenir comme',
     'support_badge' => 'Si vous êtes inscris sur le site, un badge sera sur votre avatar indiquant que vous êtes un sponsor de @laravelcd.',
     'paragraphes' => [
-        'one' => 'Bienvenue sur la page de sponsoring de Laravel RDC. À travers cette page, vous pouvez aider à soutenir le développement de la plateforme. Laravel.c est le portail de la
+        'one' => 'Bienvenue sur la page de sponsoring de Laravel RDC. À travers cette page, vous pouvez aider à soutenir le développement de la plateforme. Laravel.cd est le portail de la
                 communauté Laravel RDC, un endroit pour la communauté, par la communauté. Son code est
                 entièrement <a href="https://github.com/laravelcd/laravel.cd">ouvert (open source)</a>
                 et constitue une ressource d\'apprentissage pour les développeurs. Les développeurs sont

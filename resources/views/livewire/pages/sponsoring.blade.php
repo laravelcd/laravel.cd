@@ -49,7 +49,7 @@
                 </div>
                 <div class="prose prose-green mx-auto overflow-x-hidden dark:prose-invert lg:max-w-4xl">
                     <p>{!! __('pages/sponsoring.paragraphes.one') !!}</p>
-                    <p>{{ __('pages/sponsoring.paragraphes.two') }}</p>
+                    {{-- <p>{{ __('pages/sponsoring.paragraphes.two') }}</p> --}}
                     <p>{{ __('pages/sponsoring.paragraphes.three') }}</p>
                     <p>{{ __('pages/sponsoring.paragraphes.four') }}</p>
                     <p>{{ __('pages/sponsoring.paragraphes.five') }}</p>
