@@ -59,26 +59,13 @@
                     <div class="mt-4 flex flex-wrap items-center gap-6">
                         <a href="https://laravelshopper.dev" target="_blank" class="flex items-center">
                             <img
-                                class="h-10 dark:hidden"
-                                src="{{ asset('/images/sponsors/shopper-logo.svg') }}"
+                                class="h-10 "
+                                src="{{ asset('/images/sponsors/letecode.png') }}"
                                 alt="Laravel Shopper"
                             />
-                            <img
-                                class="hidden h-10 dark:block"
-                                src="{{ asset('/images/sponsors/shopper-logo-light.svg') }}"
-                                alt="Laravel Shopper"
-                            />
+                            
                         </a>
-                        <a href="https://gdg.community.dev/gdg-douala" target="_blank" class="flex items-center">
-                            <x-icon.gdg class="h-6 text-gray-900 dark:text-white" aria-hidden="true" />
-                        </a>
-                        <a href="https://notchpay.co" target="_blank" class="flex items-center">
-                            <x-icon.notchpay class="h-6 w-auto text-gray-900 dark:text-white" aria-hidden="true" />
-                        </a>
-                        <a href="https://sharuco.lndev.me" target="_blank" class="flex items-center">
-                            <x-icon.sharuco class="h-5 w-auto text-gray-900 dark:text-white" aria-hidden="true" />
-                            <span class="ml-1 text-xl font-bold text-gray-900 dark:text-white">Sharuco</span>
-                        </a>
+                        
                     </div>
                 </div>
             </div>

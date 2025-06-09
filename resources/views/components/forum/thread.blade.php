@@ -5,7 +5,7 @@
 <article class="rounded-xl p-4 bg-white ring-1 ring-gray-200/50 transition duration-200 ease-in-out dark:bg-gray-800 dark:ring-white/10 dark:hover:bg-white/10 lg:p-5" aria-labelledby="{{ $thread->slug }}">
     <x-forum.thread-channels :thread="$thread" />
 
-    <div class="flex items-center gap-4">
+    <div class="flex flex-col lg:flex-row items-start lg:items-center gap-4">
         <h2 id="question-title-{{ $thread->id }}" class="truncate text-xl font-medium text-gray-900 dark:text-white lg:text-xl">
             <x-link :href="route('forum.show', $thread)" class="hover:underline">
                 {{ $thread->subject() }}
@@ -27,7 +27,7 @@
         <x-link :href="route('forum.show', $thread)">{!! $thread->excerpt() !!}</x-link>
     </div>
 
-    <div class="mt-6 flex justify-between space-x-8">
+    <div class="mt-6 flex flex-col lg:flex-row justify-between space-y-4 lg:space-y-0 lg:space-x-8">
         <div class="flex items-center gap-2">
             <x-link :href="route('profile', $thread->user)" class="group inline-flex items-center gap-1 shrink-0">
                 <x-user.avatar :user="$thread->user" class="size-6" />
