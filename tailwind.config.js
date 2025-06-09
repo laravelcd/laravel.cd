@@ -74,7 +74,7 @@ export default {
         },
         black: '#161B22',
         green: colors.blue,
-        primary: colors.emerald,
+        primary: colors.red,
       },
       fontFamily: {
         heading: ['Lexend', ...fontFamily.sans],

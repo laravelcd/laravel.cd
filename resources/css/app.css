@@ -8,7 +8,7 @@
 @import 'torchlight.css';
 @import 'toc.css';
 @import 'header.css';
-
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap');
 :root {
     --laravel: #F56857;
     --livewire: #fb70a9;
