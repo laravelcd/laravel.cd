@@ -19,7 +19,7 @@
 
 ## Laravel.cd
 
-Ce dépôt contient le code source du site de [Laravel.cd](https://laravel.cd). Laravel DRC est la plus grande communauté de 
+Ce dépôt contient le code source du site de [Laravel.cd](https://laravel.cd). Laravel RDC est la plus grande communauté de 
 développeurs PHP & Laravel résidant en République Démocratique du Congo (DRC).
 
 ## Rejoindre la communauté
@@ -100,7 +100,7 @@ Une fois qu'un article a été partagé, il ne sera plus partagé.
 
 ### Notifications Telegram (optionnel)
 
-Laravel DRC peut notifier les administrateurs des nouveaux articles soumis via Telegram. Pour que cela fonctionne, vous devez configurer un [bot Telegram](https://core.telegram.org/bots) et obtenir un token.
+Laravel RDC peut notifier les administrateurs des nouveaux articles soumis via Telegram. Pour que cela fonctionne, vous devez configurer un [bot Telegram](https://core.telegram.org/bots) et obtenir un token.
 Ensuite, configurez le canal sur lequel vous souhaitez envoyer les messages relatifs aux nouveaux articles.
 
 ```shell

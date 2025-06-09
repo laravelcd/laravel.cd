@@ -5,11 +5,11 @@ declare(strict_types=1);
 return [
 
     'title' => 'La plus grande communauté de développeurs Laravel & PHP en RDC',
-    'description' => 'Laravel DRC est le portail de la communauté de développeurs PHP & Laravel en RDC, on partage, on apprend, on découvre et on construit une grande communauté.',
+    'description' => 'Laravel RDC est le portail de la communauté de développeurs PHP & Laravel en RDC, on partage, on apprend, on découvre et on construit une grande communauté.',
     'sponsor' => [
         'title' => 'Sponsor',
-        'description' => 'Montrez votre soutien à Laravel DRC aujourd\'hui en sponsorisant',
-        'description_small' => 'Soutenez Laravel DRC',
+        'description' => 'Montrez votre soutien à Laravel RDC aujourd\'hui en sponsorisant',
+        'description_small' => 'Soutenez Laravel RDC',
     ],
     'join_community' => 'Rejoindre la communauté',
     'visit_forum' => 'Visiter le Forum',

@@ -26,7 +26,7 @@ final class CreateAdminUser extends Command
     protected function createUser(): void
     {
         $email = $this->ask('Email Address', 'admin@laravel.cd');
-        $name = $this->ask('Name', 'Laravel DRC');
+        $name = $this->ask('Name', 'Laravel RDC');
         $username = $this->ask('Username', 'admin');
         $password = $this->secret('Password');
         $confirmPassword = $this->secret('Confirm Password');

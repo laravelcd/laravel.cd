@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 return [
 
-    'title' => 'Laravel DRC Blog',
-    'blog' => 'The Laravel DRC Blog',
+    'title' => 'Laravel RDC Blog',
+    'blog' => 'The Laravel RDC Blog',
     'blog_summary' => 'All the latest articles, tips and tutorials published just for you.',
     'about_author' => 'About author',
     'next_article' => 'Next article',

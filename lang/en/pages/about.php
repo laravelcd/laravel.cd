@@ -43,7 +43,7 @@ return [
             'title' => 'The company',
             'description' => ' sponsor of the Meetup.',
         ],
-        'paragraph_one' => 'Laravel DRC is a community of developers and designers who come together to
+        'paragraph_one' => 'Laravel RDC is a community of developers and designers who come together to
                             help each other. The software industry relies on collaboration and networked
                             learning. We\'ve set ourselves the goal of bringing together as many
                             developers and designers in DRC and French-speaking Africa to organize
@@ -52,7 +52,7 @@ return [
     ],
     'our_team' => [
         'title' => 'Meet the Team',
-        'description' => 'Laravel DRC is a Meetup idea that was initiated and then transformed into a community of developers.',
+        'description' => 'Laravel RDC is a Meetup idea that was initiated and then transformed into a community of developers.',
     ],
 
 ];

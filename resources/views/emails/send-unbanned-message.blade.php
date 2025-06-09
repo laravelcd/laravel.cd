@@ -13,6 +13,6 @@ Si vous avez des questions, n'hésitez pas à contacter notre équipe de support
 </x-mail::panel>
 <p>
     Cordialement,  <br>
-    L'équipe Laravel DRC
+    L'équipe Laravel RDC
 </p>
 </x-mail::message>

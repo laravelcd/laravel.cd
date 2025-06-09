@@ -33,7 +33,7 @@ return [
     ],
     'footer' => [
         'title' => 'Pied de page',
-        'copyright' => '© 2018 - :date Laravel DRC. Tous droits réservés.',
+        'copyright' => '© 2018 - :date Laravel RDC. Tous droits réservés.',
         'legal' => 'Légal',
         'resources' => 'Ressources',
     ],
@@ -82,7 +82,7 @@ return [
         'description' => 'Rejoignez le serveur Discord de la communauté et connectez-vous avec d\'autres développeurs.',
     ],
     'ads' => [
-        'ln_ui' => 'Une collection interactives de petits composants bien codés pour optimiser votre temps de développement.',
+        'letecode' => 'Apprenez la programmation web avec des cours pratiques en français. Laravel, Vue.js, TailwindCSS et plus encore.',
     ],
     'launch_modal' => [
         'forum_action' => 'Créer un sujet',
