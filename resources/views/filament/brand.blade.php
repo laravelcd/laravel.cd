@@ -1,1 +1,1 @@
-<img src="{{ asset('images/logo.png') }}" alt="{{ config('app.name') }}" style="width: 150px; height: auto;">   
+<img src="{{ asset('images/logo.png') }}" alt="{{ config('app.name') }}" class="h-16 w-auto">   
