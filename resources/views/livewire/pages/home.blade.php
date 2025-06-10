@@ -2,7 +2,7 @@
     <div class="relative isolate">
         <x-container class="mx-auto max-w-3xl py-16 sm:pt-32 lg:pb-20 lg:pt-40">
             <div class="text-center">
-                <h1 class="font-heading text-4xl font-medium tracking-tight text-primary-600 sm:leading-none lg:text-7xl">
+                <h1 class="font-heading text-4xl font-medium tracking-tight text-primary-600 sm:leading-none lg:text-8xl">
                     {{ __('global.site_name') }}
                 </h1>
                 <p class="mt-3 text-base text-gray-700 dark:text-white sm:mt-5 sm:text-lg">
