@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 return [
-    'site_name' => 'Laravel RDC',
+    'site_name' => 'Laravel Congo',
     'site_description' => 'Bienvenue sur le site de la communauté des développeurs PHP et Laravel de la RDC, le plus gros rassemblement de développeurs de la RDC.',
     'by' => 'par',
     'soon' => 'Bientôt',
@@ -33,7 +33,7 @@ return [
     ],
     'footer' => [
         'title' => 'Pied de page',
-        'copyright' => '© 2018 - :date Laravel RDC. Tous droits réservés.',
+        'copyright' => '© 2018 - :date Laravel Congo. Tous droits réservés.',
         'legal' => 'Légal',
         'resources' => 'Ressources',
     ],

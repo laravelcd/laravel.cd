@@ -1,11 +1,11 @@
 @component('mail::message')
 
     @component('mail::subcopy')
-                Bonjour **{{ $user->name }}**, Bienvenue sur **Laravel RDC** ! La plus grande communauté de développeurs
+                Bonjour **{{ $user->name }}**, Bienvenue sur **Laravel Congo** ! La plus grande communauté de développeurs
         Laravel & PHP en RDC. Je sais que tu as un contenu génial à partager sur les médias sociaux. Et tu veux qu'il
         touche davantage de personnes et de développeurs de façon simple et rapide.
         [![Alttext](https://media.giphy.com/media/Sg4DwEJrCpGIU/giphy-downsized-large.gif)](https://laravel.cm/discussions/bienvenu-sur-laravel-cameroun)
-        Je suis très heureux de te voir rejoindre Laravel RDC. Pour t'aider à démarrer, je veux partager avec toi les
+        Je suis très heureux de te voir rejoindre Laravel Congo. Pour t'aider à démarrer, je veux partager avec toi les
         ressources de bases
     @endcomponent
 
@@ -30,5 +30,5 @@
         Dire bonjour à la communauté
     @endcomponent
 
-    Arthur Monney et la Team [Laravel RDC]({{ route('about') }}).
+    Arthur Monney et la Team [Laravel Congo]({{ route('about') }}).
 @endcomponent

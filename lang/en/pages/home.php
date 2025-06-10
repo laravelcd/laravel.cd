@@ -5,11 +5,11 @@ declare(strict_types=1);
 return [
 
     'title' => 'The largest community of Laravel & PHP developers in DRC',
-    'description' => 'Laravel RDC is the portal for the PHP & Laravel developer community in DRC, where we share, learn, discover and build a great community.',
+    'description' => 'Laravel Congo is the portal for the PHP & Laravel developer community in DRC, where we share, learn, discover and build a great community.',
     'sponsor' => [
         'title' => 'Sponsor',
-        'description' => 'Support Laravel RDC today by sponsoring',
-        'description_small' => 'Support Laravel RDC',
+        'description' => 'Support Laravel Congo today by sponsoring',
+        'description_small' => 'Support Laravel Congo',
     ],
     'join_community' => 'Join the community',
     'visit_forum' => 'Visit the forum',

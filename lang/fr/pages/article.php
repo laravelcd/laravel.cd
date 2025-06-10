@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 return [
 
-    'title' => 'Blog Laravel RDC',
-    'blog' => 'Le Blog de Laravel RDC',
+    'title' => 'Blog Laravel Congo',
+    'blog' => 'Le Blog de Laravel Congo',
     'blog_summary' => 'Tous les articles, tips et tutoriels récemment publiés juste pour vous.',
     'about_author' => 'À propos de l’auteur',
     'next_article' => 'Article suivant',

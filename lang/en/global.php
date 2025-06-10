@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 return [
-    'site_name' => 'Laravel RDC',
+    'site_name' => 'Laravel Congo',
     'site_description' => 'Welcome to the DRC PHP and Laravel developer community, the largest gathering of developers in DRC.',
     'by' => 'by',
     'soon' => 'Soon',
@@ -33,7 +33,7 @@ return [
     ],
     'footer' => [
         'title' => 'Footer',
-        'copyright' => '© 2018 - :date Laravel RDC. All rights reserved.',
+        'copyright' => '© 2018 - :date Laravel Congo. All rights reserved.',
         'legal' => 'Legal',
         'resources' => 'Resources',
     ],

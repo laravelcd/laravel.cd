@@ -22,7 +22,7 @@
     @slot('footer')
         @component('mail::footer')
             <span style="display: block; margin: 0px 0px 10px 0px">
-                Vous recevez cet e-mail, car vous êtes devenu un membre précieux de la communauté Laravel RDC.
+                Vous recevez cet e-mail, car vous êtes devenu un membre précieux de la communauté Laravel Congo.
             </span>
             <span>
                 © {{ date('Y') }} {{ config('app.name') }}.
