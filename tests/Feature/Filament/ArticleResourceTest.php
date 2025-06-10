@@ -13,7 +13,7 @@ use Spatie\Permission\Models\Role;
 beforeEach(function (): void {
     Role::query()->create(['name' => 'admin']);
 
-    $this->user = $this->login(['email' => 'joe@laravel.cm']);
+    $this->user = $this->login(['email' => 'joe@laravel.cd']);
     $this->user->assignRole('admin');
 
     $this->articles = Article::factory()->count(10)->create([

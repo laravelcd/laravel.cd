@@ -10,7 +10,7 @@ use Filament\Actions\EditAction;
 use Livewire\Livewire;
 
 beforeEach(function (): void {
-    $this->user = $this->login(['email' => 'joe@laravel.cm']);
+    $this->user = $this->login(['email' => 'joe@laravel.cd']);
 });
 
 describe(ChannelResource::class, function (): void {

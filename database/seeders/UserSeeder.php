@@ -14,7 +14,7 @@ final class UserSeeder extends Seeder
         /** @var User $user */
         $user = User::factory()->create([
             'name' => 'Arthur Doe',
-            'email' => 'user@laravel.cm',
+            'email' => 'user@laravel.cd',
             'username' => 'johndoe',
             'github_profile' => 'johndoe',
             'twitter_profile' => 'johndoe',

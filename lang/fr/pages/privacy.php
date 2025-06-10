@@ -36,7 +36,7 @@ return [
     ],
     'contact' => [
         'title' => 'Contact',
-        'description' => 'Si vous pensez que nous ne respectons pas cette politique de confidentialité, vous devez nous contacter immédiatement par e-mail à support@laravel.cm',
+        'description' => 'Si vous pensez que nous ne respectons pas cette politique de confidentialité, vous devez nous contacter immédiatement par e-mail à support@laravel.cd',
     ],
 
 ];

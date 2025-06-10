@@ -50,7 +50,7 @@
         <h2>{{ __('pages/rules.implementation.title') }}</h2>
         <p>
             {{ __('pages/rules.implementation.first_paragraph_one') }}
-            <a href="mailto:arthur@laravel.cm">{{ __('pages/rules.implementation.mail') }}</a>
+            <a href="mailto:arthur@laravel.cd">{{ __('pages/rules.implementation.mail') }}</a>
             . {{ __('pages/rules.implementation.first_paragraph_two') }}
         </p>
         <p>

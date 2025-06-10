@@ -99,7 +99,7 @@
 
                             @if ($user->website)
                                 <a
-                                    href="{{ $user->website }}?utm_source=laravel.cm"
+                                    href="{{ $user->website }}?utm_source=laravel.cd"
                                     target="_blank"
                                     class="text-sm text-gray-500 dark:text-gray-500 hover:text-gray-900 dark:hover:text-white"
                                 >

@@ -18,7 +18,7 @@
         </div>
     </div>
 
-    <a href="https://letecode.com?utm_source=laravel.cm" target="_blank" class="relative block">
+    <a href="https://letecode.com?utm_source=laravel.cd" target="_blank" class="relative block">
         <div class="flex items-center space-x-3">
             <img src="/images/sponsors/letecode-logo.png" alt="LeteCode" class="h-8  rounded-full" />
             

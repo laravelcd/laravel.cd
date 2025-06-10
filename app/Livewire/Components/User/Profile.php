@@ -57,7 +57,7 @@ final class Profile extends Component implements HasForms
                             ->maxSize(1024),
                         Forms\Components\TextInput::make('username')
                             ->label(__('validation.attributes.username'))
-                            ->prefix('laravel.cm/user/@')
+                            ->prefix('laravel.cd/user/@')
                             ->required()
                             ->unique(ignoreRecord: true)
                             ->maxLength(30)
@@ -71,7 +71,7 @@ final class Profile extends Component implements HasForms
                         Forms\Components\TextInput::make('website')
                             ->label(__('validation.attributes.website'))
                             ->prefixIcon('untitledui-globe')
-                            ->placeholder('https://laravel.cm')
+                            ->placeholder('https://laravel.cd')
                             ->url(),
                     ]),
 

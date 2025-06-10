@@ -32,7 +32,7 @@ return [
     ],
     'implementation' => [
         'title' => 'Enforcement',
-        'mail' => 'arthur@laravel.cm',
+        'mail' => 'arthur@laravel.cd',
         'first_paragraph_one' => 'Cases of abusive, harassing or otherwise unacceptable behavior can be reported by contacting the project manager via',
         'first_paragraph_two' => 'The project team will review and investigate all complaints, and respond as it deems appropriate to the circumstances. The project team is obliged to maintain confidentiality with regard to incident reporters. Further details of specific enforcement policies may be published separately.',
         'second_paragraph' => 'Project managers who fail to respect or apply the Code of Conduct in good faith may face repercussions determined by other members of project management.',

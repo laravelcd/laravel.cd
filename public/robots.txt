@@ -14,4 +14,4 @@ Disallow: /privacy
 Disallow: /auth/github
 
 # Sitemap
-Sitemap: https://laravel.cm/sitemap.xml
+Sitemap: https://laravel.cd/sitemap.xml

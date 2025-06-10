@@ -36,7 +36,7 @@ return [
     ],
     'contact' => [
         'title' => 'Contact',
-        'description' => 'If you feel that we are not abiding by this privacy policy, you should contact us immediately by email at support@laravel.cm.',
+        'description' => 'If you feel that we are not abiding by this privacy policy, you should contact us immediately by email at support@laravel.cd.',
     ],
 
 ];

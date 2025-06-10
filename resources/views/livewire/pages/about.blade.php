@@ -119,7 +119,7 @@ state([
                         <ul class="font-normal">
                             <li>
                                 {{ __('pages/about.list.one.title') }}
-                                <a href="https://activspaces.com?utm_source=laravel.cm">ActivSpaces</a>
+                                <a href="https://activspaces.com?utm_source=laravel.cd">ActivSpaces</a>
                                 {{ __('pages/about.list.one.description') }}
                             </li>
                             <li>
@@ -134,12 +134,12 @@ state([
                             </li>
                             <li>
                                 {{ __('pages/about.list.four.title') }}
-                                <a href="https://twitter.com/DarkCodeCompany?utm_source=laravel.cm" target="_blank">Dark Code</a>
+                                <a href="https://twitter.com/DarkCodeCompany?utm_source=laravel.cd" target="_blank">Dark Code</a>
                                 {{ __('pages/about.list.four.description') }}
                             </li>
                             <li>
                                 {{ __('pages/about.list.five.title') }}
-                                <a href="https://diool.com?utm_source=laravel.cm" target="_blank">Diool</a>
+                                <a href="https://diool.com?utm_source=laravel.cd" target="_blank">Diool</a>
                                 {{ __('pages/about.list.five.description') }}
                             </li>
                         </ul>

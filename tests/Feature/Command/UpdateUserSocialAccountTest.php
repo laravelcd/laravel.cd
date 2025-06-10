@@ -7,7 +7,7 @@ use App\Models\User;
 
 beforeEach(function (): void {
     $this->user = $this->login([
-        'email' => 'joe@laravel.cm',
+        'email' => 'joe@laravel.cd',
         'twitter_profile' => 'https://x.com/laravelcd',
         'github_profile' => 'https://github.com/laravelcd',
         'linkedin_profile' => 'https://www.linkedin.com/in/laravel-cd/',

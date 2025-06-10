@@ -32,7 +32,7 @@ return [
     ],
     'implementation' => [
         'title' => 'Mise en vigueur',
-        'mail' => 'arthur@laravel.cm',
+        'mail' => 'arthur@laravel.cd',
         'first_paragraph_one' => ' Les cas de comportement abusif, harcelant ou autrement inacceptable peuvent être signalés en contactant le responsable du projet via l\'adresse',
         'first_paragraph_two' => 'L\'équipe du projet examinera et enquêtera sur toutes les plaintes, et répondra de manière à ce qu\'elle
             juge approprié aux circonstances. L\'équipe de projet est tenue de maintenir la confidentialité en ce qui

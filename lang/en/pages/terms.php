@@ -7,7 +7,7 @@ return [
     'title' => 'Terms of use',
     'last_maj' => 'Last update: :date',
     'first_description' => 'These terms and conditions
-         written on this web page will govern your use of our website, Laravel Congo accessible at laravel.cm',
+         written on this web page will govern your use of our website, Laravel Congo accessible at laravel.cd',
     'second_description' => 'These conditions will be fully enforced and will affect your use of this website. By using this Web site, you agree to all terms and conditions
         terms and conditions written here. You must not use this website if you do not agree with any of these
         these standard Web site terms and conditions. The material contained in this website is protected by copyright and applicable trademark law.',

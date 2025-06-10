@@ -20,7 +20,7 @@ use function Pest\Laravel\get;
 
 beforeEach(function (): void {
     Event::fake();
-    $this->user = User::factory(['email' => 'user@laravel.cm'])->create();
+    $this->user = User::factory(['email' => 'user@laravel.cd'])->create();
     Role::create(['name' => 'admin']);
     $this->user->assignRole(['admin']);
     $this->actingAs($this->user, 'web');
