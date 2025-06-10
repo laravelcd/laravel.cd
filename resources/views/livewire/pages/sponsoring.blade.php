@@ -29,7 +29,7 @@
                                     <x-icon.facebook class="size-5" aria-hidden="true" />
                                 </a>
 
-                                <a href="https://www.linkedin.com/company/laravel-cameroun" class="text-gray-400 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-500">
+                                <a href="https://www.linkedin.com/company/laravelcd" class="text-gray-400 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-500">
                                     <span class="sr-only">LinkedIn</span>
                                     <x-icon.linkedin class="size-5" aria-hidden="true" />
                                 </a>
@@ -39,7 +39,7 @@
                                     <x-icon.github class="size-5" aria-hidden="true" />
                                 </a>
 
-                                <a href="https://www.youtube.com/channel/UCbQPQ8q31uQmuKtyRnATLSw" class="text-gray-400 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-500">
+                                <a href="https://www.youtube.com/@laravelcd" class="text-gray-400 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-500">
                                     <span class="sr-only">YouTube</span>
                                     <x-icon.youtube class="size-5" aria-hidden="true" />
                                 </a>

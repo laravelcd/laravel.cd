@@ -2,7 +2,7 @@
     {{-- Header --}}
     @slot('header')
         @component('mail::header', ['url' => config('app.url')])
-            <img src="{{ asset('images/laravelcd-icon.svg') }}" alt="{{ config('app.name') }}" style="width: 150px; height: auto;">   
+            <img src="{{ asset('images/logo.png') }}" alt="{{ config('app.name') }}" style="width: 150px; height: auto;">   
         @endcomponent
     @endslot
 

@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./art/logo.svg" height="250" alt="Community logo" />
+    <img src="./art/logo.png" height="250" alt="Community logo" />
 </p>
 
 <p align="center">
