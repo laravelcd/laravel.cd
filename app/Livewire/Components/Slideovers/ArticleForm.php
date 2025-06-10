@@ -89,13 +89,16 @@ final class ArticleForm extends SlideOverComponent implements HasForms
                                     ->onColor('success')
                                     ->onIcon('untitledui-pencil-line')
                                     ->helperText(__('pages/article.draft_help')),
-                                Forms\Components\DatePicker::make('published_at')
+                                Forms\Components\DateTimePicker::make('published_at')
                                     ->label(__('pages/article.form.published_at'))
                                     ->minDate(now())
                                     ->prefixIcon('untitledui-calendar-date')
                                     ->native(false)
                                     ->visible(fn (Forms\Get $get): bool => $get('is_draft') === false)
-                                    ->required(fn (Forms\Get $get): bool => $get('is_draft') === false),
+                                    ->required(fn (Forms\Get $get): bool => $get('is_draft') === false)
+                                   
+                                    ->timezone('Africa/Kinshasa')
+                                    ->seconds(false),
                             ]),
                     ])
                     ->columnSpan(2),
