@@ -34,7 +34,7 @@ new class extends Component {
 
         $user->assignRole('user');
 
-        event(new Registered($user));
+        // event(new Registered($user));
 
         session()->flash('status', __('pages/auth.register.email_verification_status'));
     }
