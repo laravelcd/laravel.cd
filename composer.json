@@ -22,7 +22,7 @@
     "graham-campbell/markdown": "^15.2",
     "guzzlehttp/guzzle": "^7.7.0",
     "jenssegers/agent": "^2.6.4",
-    "laravel-notification-channels/telegram": "^5.0",
+    "laravel-notification-channels/telegram": "^6.0",
     "laravel-notification-channels/twitter": "^8.1",
     "laravel/framework": "^11.0",
     "laravel/sanctum": "^4.0",
